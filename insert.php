@@ -1,8 +1,8 @@
 <?php
-        $server = 'localhost';
-        $username = 'tomiwaajayi';
-        $password = 'dacapo42';
-        $database = 'root_dentity';
+        $server = 'us-cdbr-east-02.cleardb.com';
+        $username = 'b8eb712ab68b29';
+        $password = '7dbd4ce1';
+        $database = 'heroku_19e4725a27d848b';
 
 
         $connection = mysqli_connect($server, $username, $password, $database) or die(mysqli_error());
