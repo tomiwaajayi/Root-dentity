@@ -76,6 +76,7 @@ p.form-mail-text{
     margin-top: 20px;
     margin-bottom: 7px;
     color: #054639;
+    /* color: #A63343; */
 
 }
 
@@ -99,6 +100,7 @@ input.form-input::-webkit-input-placeholder {
 
 .bg-orange {
     background-color: #E9623B;
+    /* background-color: #e8bb47; */
     color: white;
     font-size: 12px;
 }
@@ -134,8 +136,12 @@ input.form-input::-webkit-input-placeholder {
     border: 3px solid #E8BB47;
 }
 
-.form-2 {
+.call-to-action-2 {
     margin-top: 90px;
+}
+
+.form-2 {
+    
     padding-bottom: 90px;
 }
 
