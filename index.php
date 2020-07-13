@@ -1,13 +1,3 @@
-<?php 
-    // Connect to database
-    $connect_db = mysqli_connect('localhost', 'tomiwaajayi', 'dacapo42', 'root_dentity');
-
-    //check connection
-
-    if(! $connect_db) {
-        echo 'Connection error: ' . mysqli_connect_error();
-    }
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,12 +43,14 @@
                             <p class="form-mail-text">Be the first to know when Root-dentity launches !</p>
                         </div>
 
-                        <div class="input-group mb-3 form-mail">
-                            <input type="text" class="form-control form-input" placeholder="&#xf0e0 Email">
-                            <div class="input-group-append">
-                                <span class="input-group-text bg-orange" id="basic-addon2">GET NOTIFIED</span>
+                        <form action="insert.php" method="post">
+                            <div class="input-group mb-3 form-mail">
+                                <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email" required>
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-orange" id="basic-addon2" type="submit" >GET NOTIFIED</button>
+                                </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
 
                     <div class="col-md-5 text-right hero-phone-image">
@@ -105,15 +97,18 @@
                 
             </div>
 
+            
             <div class="call-to-action-2 text-center">
-                <p class="form-mail-text ">Be the first to know when Root-dentity launches !</p>
+                <p class="form-mail-text">Be the first to know when Root-dentity launches !</p>
             </div>
-            <div class="input-group mb-3 form-mail mx-auto form-2">
-                <input type="text" class="form-control form-input" placeholder="&#xf0e0 Email">
-                <div class="input-group-append">
-                    <span class="input-group-text bg-orange" id="basic-addon2">GET NOTIFIED</span>
+            <form action="">
+                <div class="input-group mb-3 form-mail mx-auto form-2">
+                    <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email" required>
+                    <div class="input-group-append">
+                        <button class="input-group-text bg-orange" id="basic-addon2" type="submit">GET NOTIFIED</button>
+                    </div>
                 </div>
-            </div>
+            </form>
 
         </div>
     </section>
