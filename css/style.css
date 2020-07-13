@@ -82,7 +82,7 @@ p.form-mail-text{
 
 input.form-input::-webkit-input-placeholder {
     font-family: Ubuntu, FontAwesome;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     font-weight: normal;
     overflow: visible;
@@ -99,7 +99,7 @@ input.form-input::-webkit-input-placeholder {
     font-size: 12px;
 }
 
-.col-5 img {
+.phone-image img {
     height: 546.74px;
 }
 
@@ -118,10 +118,14 @@ input.form-input::-webkit-input-placeholder {
     padding-top: 41px;
 }
 
-.video {
+.video-box {
     display: block;
     margin: auto;
     margin-top: 28px;
-    border: 2px solid #e8bb47;
     max-width: 756px;
+}
+
+.video-bg .video-box iframe {
+    display: inline-block;
+    border: 3px solid #E8BB47;
 }
