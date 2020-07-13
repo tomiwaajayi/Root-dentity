@@ -3,13 +3,17 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #F9F7F1;
 }
 
 section.header {
     background-color: #F9F7F1;
+    /* margin-bottom: 0;
+    padding-bottom: 0; */
 }
 
 
@@ -128,4 +132,56 @@ input.form-input::-webkit-input-placeholder {
 .video-bg .video-box iframe {
     display: inline-block;
     border: 3px solid #E8BB47;
+}
+
+.form-2 {
+    margin-top: 90px;
+    padding-bottom: 90px;
+}
+
+section.features {
+    background-color: #0E5849;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+.feature-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    padding-top: 38px;
+    margin-bottom: 38px;
+}
+
+section.features .phone-image {
+    height: 790.8px;
+}
+
+.feature-box {
+    background-color: #F9F7F1;
+    max-width: 505px;
+    height: 245px;
+    border-radius: 13.13px;
+    margin-bottom: 28px;
+}
+
+.feature-box h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.2217px;
+    line-height: 24px;
+    color: #505D68;
+    padding: 26.28px 135.15px 0 86.36px;
+}
+
+.feature-box p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.3594px;
+    line-height: 19px;
+    color: #A1AEB7;
+    padding: 13.86px 194.63px 50.92px 86.36px;
 }
