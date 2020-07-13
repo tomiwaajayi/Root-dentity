@@ -26,17 +26,18 @@ label.text-center.logo-welcome {
     line-height: 30px;
     font-weight: 500;
     display: inline-block;
-    margin-top: 80px;
+    margin-top: 40px;
 }
-
-
-
 
 .welcome {
     color: #A1AEB7;
     font-size: 21px;
     font-weight: 500;
 }
+/* 
+.col-7 {
+    padding-left: 20px;
+} */
 
 .primary-section {
     padding-top: 50px;
@@ -96,4 +97,31 @@ input.form-input::-webkit-input-placeholder {
     background-color: #E9623B;
     color: white;
     font-size: 12px;
+}
+
+.col-5 img {
+    height: 546.74px;
+}
+
+.video-bg {
+    height: 650px;
+    margin-top: 141.39px;
+    background-color: #E9623B;
+}
+
+.video-header {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    padding-top: 41px;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    margin-top: 28px;
+    border: 2px solid #e8bb47;
+    max-width: 756px;
 }
