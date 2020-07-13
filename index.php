@@ -1,3 +1,14 @@
+<?php 
+    // Connect to database
+    $connect_db = mysqli_connect('localhost', 'tomiwaajayi', 'dacapo42', 'root_dentity');
+
+    //check connection
+
+    if(! $connect_db) {
+        echo 'Connection error: ' . mysqli_connect_error();
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
