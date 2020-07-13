@@ -1,8 +1,8 @@
 <?php
-        $server = 'us-cdbr-east-02.cleardb.com';
-        $username = 'b8eb712ab68b29';
-        $password = '7dbd4ce1';
-        $database = 'heroku_19e4725a27d848b';
+        $server = 'e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+        $username = 'g0fz6s9hey8x87nd';
+        $password = 'gl4ovqtwhl8w195l';
+        $database = 'ly0k57b6ruhdkxuu';
 
 
         $connection = mysqli_connect($server, $username, $password, $database) or die(mysqli_error());
