@@ -136,6 +136,14 @@ input.form-input::-webkit-input-placeholder {
     border: 3px solid #E8BB47;
 }
 
+.app-screen {
+    margin-top: 118px;
+}
+
+.app-screen img {
+    width: 165px;
+}
+
 .call-to-action-2 {
     margin-top: 90px;
 }
