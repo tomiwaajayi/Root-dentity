@@ -47,7 +47,7 @@
                             <div class="input-group mb-3 form-mail">
                                 <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email" required>
                                 <div class="input-group-append">
-                                    <button class="input-group-text bg-orange" id="basic-addon2" type="submit" >GET NOTIFIED</button>
+                                    <button class="input-group-text bg-orange" id="basic-addon2" type="submit" name="submit" value="submit">GET NOTIFIED</button>
                                 </div>
                             </div>
                         </form>
