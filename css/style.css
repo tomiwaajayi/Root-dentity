@@ -1,36 +1,33 @@
 @import https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css;
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #F9F7F1;
 }
 
-section.header {
-    background-color: #F9F7F1;
-    /* margin-bottom: 0;
-    padding-bottom: 0; */
+.logo {
+    box-sizing: border-box;
+    margin-top: 50px;
 }
 
-
 .logo img {
-    height: 53.61px;
-    margin-top: -18px;
+    max-height: 53.61px;
+    /* margin-top: -18px; */
     padding-right: 10px;
     display: inline-block;
 }
 
-label.text-center.logo-welcome {
+.logo-welcome {
     font-size: 21px;
     color: #0E5849;
     line-height: 30px;
     font-weight: 500;
     display: inline-block;
-    margin-top: 40px;
+    padding-top: 0px;
+    margin-top: 10px;
 }
 
 .welcome {
@@ -38,11 +35,6 @@ label.text-center.logo-welcome {
     font-size: 21px;
     font-weight: 500;
 }
-/* 
-.col-7 {
-    padding-left: 20px;
-} */
-
 .primary-section {
     padding-top: 50px;
 }
@@ -53,14 +45,16 @@ label.text-center.logo-welcome {
     font-weight: normal;
     font-size: 36px;
     line-height: 26px;
-    margin-top: 51px;
+    margin-top: 20px;
 }
 
 .header h1 {
     color: #054639;
     font-weight: bold;
-    font-size: 66px;
+    font-size: 60px;
 }
+
+
 
 .text-info-1 {
     font-size: 16px;
@@ -106,12 +100,12 @@ input.form-input::-webkit-input-placeholder {
 }
 
 .hero-phone-image img {
-    height: 546.74px;
+    max-height: 546.74px;
 }
 
 .video-bg {
     height: 650px;
-    margin-top: 141.39px;
+    margin-top: 100px;
     background-color: #E9623B;
 }
 
@@ -153,57 +147,57 @@ input.form-input::-webkit-input-placeholder {
     padding-bottom: 90px;
 }
 
-section.features {
-    background-color: #0E5849;
-    margin-top: 0;
-    padding-bottom: 0;
+/* Media Query for Medium Screen */
+
+@media screen and (max-width: 768px) {
+    .coming-soon {
+        font-size: 30px;
+        margin-bottom: 10px
+    }
+    .header h1 {
+        margin-top: ;
+        font-size: 44.53px;
+    }
+
+    .text-info-1 {
+        margin: 10px 0 10px 0 !important;
+    }
 }
 
-.feature-title {
-    color: #fff;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 64px;
-    padding-top: 38px;
-    margin-bottom: 38px;
-}
+/* Media Query for Small Screen */
 
-.features-container {
-    max-width: 810px !important;
-}
+@media screen and (max-width: 600px) {
+    .hero-phone-image img {
+        height: 384.4px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-.features-phone {
-    max-width: 175.54px;
-}
 
-.features-box {
-    border-radius: 13.13px;
-    margin-top: 8px;
-    max-width: 505px;
-    max-height: 342px;
-    box-sizing: border-box;
-    background-color: #F9F7F1;
-}
+    .video-bg {
+        height: 321px !important;
+        margin-top: 20px !important;
+        background-color: #E9623B;
+    }
 
-.features-info-main {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23.2898px;
-    line-height: 34px;
-    color: #505D68;
-    padding: 30px 31px 0px 31px;
-}
+    .video-header {
+        color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px !important;
+        line-height: 64px;
+        padding-top: 20px !important;
+    }
 
-.features-info-sub {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17.7446px;
-    line-height: 27px;
-    color: #A1AEB7;
-    padding:0px 31px 30px 31px;
-}
+    .video-box {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        width: 320px;
+    }
 
-div.col-8.features-box {
-    box-sizing: border-box;
+    .call-to-action-2 {
+        margin-top: 25px;
+    }
+
 }

@@ -20,21 +20,19 @@
     <!-- Hero Section -->
     <section class="header">
         <div class="container">
-            <div class="container">
-                <div class="logo text-center">
-                    <img src="./img/logo.png" alt="logo" class="logo-img">
-
-                    <!-- Welcome to Root-dentity -->
-                    <label class="text-center logo-welcome">Welcome to Root-dentity</label>
-                </div>
+            <div class="logo text-center">
+                <!-- Welcome to Root-dentity -->
+                <img src="./img/logo.png" alt="logo" class="logo-im">
+                <p class="logo-welcome">Welcome to Root-dentity</p>
             </div>
+
 
 
             <div class="container primary-section">
                 <div class="row">
                     <!-- Coming Soon left section -->
-                    <div class="col-md-7">
-                        <p class="coming-soon ">Coming Soon</p>
+                    <div class="col-md-7 text-center text-md-left">
+                        <p class="coming-soon">Coming Soon</p>
                         <h1>Where in the world are you from ?</h1>
                         <p class="text-info-1">The places your ancestors called home are encoded in your Physical
                             features. Ethnic groups
@@ -45,7 +43,7 @@
 
                         <!-- Be notified Form 1 -->
                         <div>
-                            <p class="form-mail-text">Be the first to know when Root-dentity launches !</p>
+                            <p class="form-mail-text">Get notified when we launch !</p>
                         </div>
 
                         <form action="insert.php" method="post">
@@ -66,8 +64,8 @@
 
                     <!-- Right Phone -->
 
-                    <div class="col-md-5 text-right hero-phone-image">
-                        <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594614873/iPhone_11_Pro_egyo8f.png"
+                    <div class="col-md-5 text-center hero-phone-image">
+                        <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594739956/iPhone_11_Pro_azlgq3.png"
                             alt="">
                     </div>
                 </div>
@@ -82,42 +80,11 @@
                             allowfullscreen></iframe>
                     </div>
                 </div>
-
-                <!-- <iframe width="756" height="437" src="https://www.youtube.com/embed/gEWricFkFlg" frameborder="0"
-                    allowfullscreen class="text-center video"></iframe> -->
             </div>
-
-
-            <!-- APP Screens Section -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-2 app-screen text-center">
-                        <img src="./img/iPhone 11 Pro.svg" alt="">
-                    </div>
-                    <div class="col-2 app-screen text-center">
-                        <img src="./img/iPhone 11 Pro.svg" alt="">
-                    </div>
-                    <div class="col-2 app-screen text-center">
-                        <img src="./img/iPhone 11 Pro.svg" alt="">
-                    </div>
-                    <div class="col-2 app-screen text-center">
-                        <img src="./img/iPhone 11 Pro.svg" alt="">
-                    </div>
-                    <div class="col-2 app-screen text-center">
-                        <img src="./img/iPhone 11 Pro.svg" alt="">
-                    </div>
-                    <div class="col-2 app-screen text-center">
-                        <img src="./img/iPhone 11 Pro.svg" alt="">
-                    </div>
-                </div>
-            </div>
-            <!-- End of app screens Section -->
-
-
 
             <!-- Be notified Form 2 -->
             <div class="call-to-action-2 text-center">
-                <p class="form-mail-text">Be the first to know when Root-dentity launches !</p>
+                <p class="form-mail-text">Get notified when we launch !</p>
             </div>
             <form action="insert.php" method="post">
                 <div class="input-group mb-3 form-mail mx-auto form-2">
@@ -133,66 +100,3 @@
             <!-- End of form 2-->
         </div>
     </section>
-
-
-    <!-- Section Features -->
-    <section class="features">
-        <div class="container">
-            <div>
-                <h2 class="text-center feature-title">Features</h2>
-            </div>
-            <div class="container features-container">
-                <div class="row">
-                    <div class="col-4">
-                        <img src="./img/Features-Device.png" alt="" class="features-phone">
-                    </div>
-                    <div class="col-8 features-box">
-                        <p class="features-info-main">With the use of Facial identification
-                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
-                        <p class="features-info-sub">With precise geographic detail and clear-cut historical insights, we connect you to the places in the world where your story started.</p>
-                    </div>
-                </div>
-
-                <div class="row mt-5">
-                    <div class="col-8 features-box">
-                        <p class="features-info-main">With the use of Facial identification
-                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
-                        <p class="features-info-sub">With precise geographic detail and clear-cut historical insights, we connect you to the places in the world where your story started.</p>
-                    </div>
-                    <div class="col-4 text-right">
-                        <img src="./img/Features-Device.png" alt="" class="features-phone">
-                    </div>
-                </div>
-
-                <div class="row mt-5">
-                    <div class="col-4">
-                        <img src="./img/Features-Device.png" alt="" class="features-phone">
-                    </div>
-                    <div class="col-8 features-box">
-                        <p class="features-info-main">With the use of Facial identification
-                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
-                        <p class="features-info-sub">With precise geographic detail and clear-cut historical insights, we connect you to the places in the world where your story started.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-    <script src="./js/app.js"></script>
-    <script src="./js/modal.js"></script>
-
-
-</body>
-
-</html>
