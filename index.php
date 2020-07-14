@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                         </form>
-
+                    </div>
 
                     <div class="col-md-5 text-right hero-phone-image">
                         <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594614873/iPhone_11_Pro_egyo8f.png"
