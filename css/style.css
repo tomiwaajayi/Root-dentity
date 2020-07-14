@@ -147,9 +147,30 @@ input.form-input::-webkit-input-placeholder {
     padding-bottom: 90px;
 }
 
-/* Media Query for Medium Screen */
+/* Media Query for Large Screen */
+@media screen and (max-width: 992px) {
+    .primary-section h1 {
+        font-size: 45px !important;
+    }
+}
 
-@media screen and (max-width: 768px) {
+/* Media Query for Medium Screen */
+@media screen and (max-width: 767px) {
+
+    .primary-section {
+        padding-top: 20px;
+    }
+
+    .video-bg {
+        height: 450px !important;
+        margin-top: 20px !important;
+        background-color: #E9623B;
+    }
+
+    .video-header {
+        font-size: 40px;
+    }
+
     .coming-soon {
         font-size: 30px;
         margin-bottom: 10px
@@ -162,10 +183,26 @@ input.form-input::-webkit-input-placeholder {
     .text-info-1 {
         margin: 10px 0 10px 0 !important;
     }
+
+    .hero-phone-image img {
+        height: 384.4px;
+        margin-top: 30px;
+        margin-bottom: 30px; 
+    }
+
+    .video-box {
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        width: 460px;
+    }
+
+    .call-to-action-2 {
+        margin-top: 35px;
+    }
 }
 
 /* Media Query for Small Screen */
-
 @media screen and (max-width: 600px) {
     .hero-phone-image img {
         height: 384.4px;
