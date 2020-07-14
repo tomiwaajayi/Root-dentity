@@ -1,9 +1,8 @@
 <?php
-        $server = 'e11wl4mksauxgu1w.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
-        $username = 'g0fz6s9hey8x87nd';
-        $password = 'gl4ovqtwhl8w195l';
-        $database = 'ly0k57b6ruhdkxuu';
-
+        $server = 'us-cdbr-east-02.cleardb.com';
+        $username = 'ba6d0da3008d55'; 
+        $password = '849378c3';
+        $database = 'heroku_b87aacc503cb869';
 
         $connection = mysqli_connect($server, $username, $password, $database) or die(mysqli_error());
 
@@ -16,7 +15,8 @@
             $run = mysqli_query($connection,$query) or mysqli_error($connection);
 
             if($run) {
-                echo "We'll keep you updated";
+                header("Location: index.php");
+                // echo "We'll keep you updated";
             }else {
                 echo "There has been an error";
             }
