@@ -169,33 +169,41 @@ section.features {
     margin-bottom: 38px;
 }
 
-section.features .phone-image {
-    height: 790.8px;
+.features-container {
+    max-width: 810px !important;
 }
 
-.feature-box {
-    background-color: #F9F7F1;
-    max-width: 505px;
-    height: 245px;
+.features-phone {
+    max-width: 175.54px;
+}
+
+.features-box {
     border-radius: 13.13px;
-    margin-bottom: 28px;
+    margin-top: 8px;
+    max-width: 505px;
+    max-height: 342px;
+    box-sizing: border-box;
+    background-color: #F9F7F1;
 }
 
-.feature-box h3 {
+.features-info-main {
     font-style: normal;
     font-weight: bold;
-    font-size: 16.2217px;
-    line-height: 24px;
+    font-size: 23.2898px;
+    line-height: 34px;
     color: #505D68;
-    padding: 26.28px 135.15px 0 86.36px;
+    padding: 30px 31px 0px 31px;
 }
 
-.feature-box p {
-    font-family: Ubuntu;
+.features-info-sub {
     font-style: normal;
     font-weight: normal;
-    font-size: 12.3594px;
-    line-height: 19px;
+    font-size: 17.7446px;
+    line-height: 27px;
     color: #A1AEB7;
-    padding: 13.86px 194.63px 50.92px 86.36px;
+    padding:0px 31px 30px 31px;
+}
+
+div.col-8.features-box {
+    box-sizing: border-box;
 }

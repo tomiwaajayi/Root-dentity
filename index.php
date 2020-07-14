@@ -17,11 +17,14 @@
 </head>
 
 <body>
+    <!-- Hero Section -->
     <section class="header">
         <div class="container">
             <div class="container">
                 <div class="logo text-center">
                     <img src="./img/logo.png" alt="logo" class="logo-img">
+
+                    <!-- Welcome to Root-dentity -->
                     <label class="text-center logo-welcome">Welcome to Root-dentity</label>
                 </div>
             </div>
@@ -29,6 +32,7 @@
 
             <div class="container primary-section">
                 <div class="row">
+                    <!-- Coming Soon left section -->
                     <div class="col-md-7">
                         <p class="coming-soon ">Coming Soon</p>
                         <h1>Where in the world are you from ?</h1>
@@ -39,6 +43,7 @@
                                 analyzes your
                                 face to determine which portions are estimated to originate from each</strong></p>
 
+                        <!-- Be notified Form 1 -->
                         <div>
                             <p class="form-mail-text">Be the first to know when Root-dentity launches !</p>
                         </div>
@@ -49,11 +54,17 @@
                                     placeholder="&#xf0e0 Email" required>
                                 <div class="input-group-append">
                                     <button class="input-group-text bg-orange" id="basic-addon2" type="submit"
-                                        name="submit" value="submit" data-toggle="modal" data-target="#exampleModal">GET NOTIFIED</button>
+                                        name="submit" value="submit" data-toggle="modal" data-target="#exampleModal">GET
+                                        NOTIFIED</button>
                                 </div>
                             </div>
                         </form>
+
+                        <!-- End of form 1 -->
+
                     </div>
+
+                    <!-- Right Phone -->
 
                     <div class="col-md-5 text-right hero-phone-image">
                         <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594614873/iPhone_11_Pro_egyo8f.png"
@@ -62,6 +73,7 @@
                 </div>
             </div>
 
+            <!-- Watch the overview -->
             <div class="video-bg">
                 <h2 class="text-center video-header">Watch the Overview</h2>
                 <div class="video-box container">
@@ -75,6 +87,8 @@
                     allowfullscreen class="text-center video"></iframe> -->
             </div>
 
+
+            <!-- APP Screens Section -->
             <div class="container">
                 <div class="row">
                     <div class="col-2 app-screen text-center">
@@ -96,10 +110,12 @@
                         <img src="./img/iPhone 11 Pro.svg" alt="">
                     </div>
                 </div>
-
             </div>
+            <!-- End of app screens Section -->
 
 
+
+            <!-- Be notified Form 2 -->
             <div class="call-to-action-2 text-center">
                 <p class="form-mail-text">Be the first to know when Root-dentity launches !</p>
             </div>
@@ -114,35 +130,48 @@
                 </div>
             </form>
 
+            <!-- End of form 2-->
         </div>
     </section>
 
+
+    <!-- Section Features -->
     <section class="features">
         <div class="container">
             <div>
                 <h2 class="text-center feature-title">Features</h2>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="./img/Features-Device.png" alt="" class="phone-image">
+            <div class="container features-container">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./img/Features-Device.png" alt="" class="features-phone">
+                    </div>
+                    <div class="col-8 features-box">
+                        <p class="features-info-main">With the use of Facial identification
+                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="features-info-sub">With precise geographic detail and clear-cut historical insights, we connect you to the places in the world where your story started.</p>
+                    </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="row feature-box feature-1">
-                        <h3>Root-dentity® gives you much more than just the places you're from.</h3>
-                        <p>With precise geographic detail and clear-cut historical insights, we connect you to the
-                            places in the world where your story started.</p>
+                <div class="row mt-5">
+                    <div class="col-8 features-box">
+                        <p class="features-info-main">With the use of Facial identification
+                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="features-info-sub">With precise geographic detail and clear-cut historical insights, we connect you to the places in the world where your story started.</p>
                     </div>
-                    <div class="row feature-box feature-2">
-                        <h3>Root-dentity® gives you insight into the past and identity of your family’s history.</h3>
-                        <p>With precise geographic detail and clear-cut historical insights, we connect you to the
-                            places in the world where your story started.</p>
+                    <div class="col-4 text-right">
+                        <img src="./img/Features-Device.png" alt="" class="features-phone">
                     </div>
-                    <div class="row feature-box feature-3">
-                        <h3>Root-dentity® gives you 3D-simulations/life-like imageries of what your ancestors look like.
-                        </h3>
-                        <p>With precise geographic detail and clear-cut historical insights, we connect you to the
-                            places in the world where your story started.</p>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-4">
+                        <img src="./img/Features-Device.png" alt="" class="features-phone">
+                    </div>
+                    <div class="col-8 features-box">
+                        <p class="features-info-main">With the use of Facial identification
+                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="features-info-sub">With precise geographic detail and clear-cut historical insights, we connect you to the places in the world where your story started.</p>
                     </div>
                 </div>
             </div>
@@ -162,7 +191,7 @@
     </script>
     <script src="./js/app.js"></script>
     <script src="./js/modal.js"></script>
-    
+
 
 </body>
 
