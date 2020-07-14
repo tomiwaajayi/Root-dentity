@@ -47,7 +47,7 @@
                         </div>
 
                         <form action="insert.php" method="post">
-                            <div class="input-group mx-sm-auto  mb-3 form-mail">
+                            <div class="input-group mx-auto ml-md-0  mb-3 form-mail">
                                 <input type="email" name="email" class="form-control form-input"
                                     placeholder="&#xf0e0 Email" required>
                                 <div class="input-group-append">
@@ -87,7 +87,7 @@
                 <p class="form-mail-text">Get notified when we launch !</p>
             </div>
             <form action="insert.php" method="post">
-                <div class="input-group mx-sm-auto mb-3 form-mail mx-auto form-2">
+                <div class="input-group mx-auto mb-3 form-mail mx-auto form-2">
                     <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email"
                         required>
                     <div class="input-group-append">
