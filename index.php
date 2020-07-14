@@ -66,7 +66,7 @@
 
                     <div class="col-md-5 text-center hero-phone-image">
                         <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594739956/iPhone_11_Pro_azlgq3.png"
-                            alt="">
+                            alt="" class="vert-move">
                     </div>
                 </div>
             </div>

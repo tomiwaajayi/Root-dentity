@@ -147,6 +147,23 @@ input.form-input::-webkit-input-placeholder {
     padding-bottom: 90px;
 }
 
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
 /* Media Query for Large Screen */
 @media screen and (max-width: 992px) {
     .primary-section h1 {
