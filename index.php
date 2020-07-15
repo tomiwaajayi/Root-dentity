@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
@@ -15,9 +17,15 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/swiper.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/5f006efe51.js" crossorigin="anonymous"></script>
     <title>Root-dentity</title>
+
+    <style>
+        body {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -163,8 +171,7 @@
                         <p class="move-3" data-aos="fade-left">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                         <hr data-aos="zoom-in" data-aos-offset="150">
-                        <p class="move-4" data-aos="fade-left">With the use of Facial identification
-                            technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="move-4" data-aos="fade-left">With the use of Facial identification technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
                 </div>
             </div>
@@ -210,7 +217,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init({
-        offset: 400,
+        offset: 150,
         duration: 1000
     });
     </script>

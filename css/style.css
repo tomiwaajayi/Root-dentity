@@ -150,6 +150,7 @@ input.form-input::-webkit-input-placeholder {
 
 .app-description {
     background-color: #264236;
+    box-sizing: border-box;
 }
 
 
@@ -180,9 +181,11 @@ img.app-description-img {
 .app-description-text-1 {
     padding-top: 80px;
     padding-left: 75px;
+    box-sizing: border-box;
 }
 
 .app-description-text-2 {
+    box-sizing: border-box;
     padding-top: 80px;
     padding-right: 75px;
 }
