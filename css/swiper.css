@@ -26,3 +26,7 @@
     /* background-color: #000; */
     /* -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006); */
 }
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #0e5849 !important;
+}
