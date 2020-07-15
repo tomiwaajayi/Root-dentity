@@ -183,10 +183,10 @@
     <section class="footer">
         <div class="container-fluid">
             <div class="row footer-col">
-                <div class="col-lg-3 d-none d-lg-block">
+                <div class="col-md-3 d-none d-lg-block">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594825928/footer2_l2doix.png" alt="">
                 </div>
-                <div class="col-lg-6 text-center pt-5">
+                <div class="col-md-6 text-center pt-3">
                     <div class="footer-text-container mx-auto">
                     <h4 class="footer-heading mb-3">Download the future</h4>
                     <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit possimus ipsam quam mollitia.
@@ -210,7 +210,7 @@
                     </form>
                 </div>
                     </div>
-                <div class="col-lg-3 text-right">
+                <div class="col-md-3 text-right">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594826683/Screenshot_2020-07-15_at_4.07.00_PM_wp83vw.png"
                         alt="">
                 </div>

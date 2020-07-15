@@ -213,10 +213,10 @@ section.footer {
 }
 
 section.footer img {
-    width: 100%;
+    width: 85%;
 }
 
-.footer-col div.col-lg-3 {
+.footer-col div.col-md-3 {
     padding: 0;
 }
 
@@ -282,6 +282,8 @@ section.footer img {
     }
     
 }
+
+
 
 /* Media Query for Medium Screen */
 @media screen and (max-width: 767px) {
