@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://kit.fontawesome.com/5f006efe51.js" crossorigin="anonymous"></script>
     <title>Root-dentity</title>
 </head>
@@ -144,24 +145,25 @@
             <div class="row">
                 <div class="col-4">
                     <div class="px-auto app-description-text-1">
-                        <p>With the use of Facial identification
+                        <p class="move-1" data-aos="fade-right">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
-                        <hr>
-                        <p>With the use of Facial identification
+                        <hr data-aos="zoom-in" data-aos-offset="150">
+                        <p class="move-2" data-aos="fade-right">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
                 </div>
 
                 <div class="col-4 text-center">
-                    <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png" alt="" class="app-description-img">
+                    <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                        alt="" class="app-description-img" data-aos="fade-up" data-aos-anchor-placement="top-center">>
                 </div>
 
                 <div class="col-4">
                     <div class="app-description-text-2">
-                        <p>With the use of Facial identification
+                        <p class="move-3" data-aos="fade-left">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
-                        <hr>
-                        <p>With the use of Facial identification
+                        <hr data-aos="zoom-in" data-aos-offset="150">
+                        <p class="move-4" data-aos="fade-left">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
                 </div>
@@ -172,6 +174,8 @@
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <!-- Initialize Swiper -->
     <script>
     var swiper = new Swiper('.swiper-container', {
@@ -194,6 +198,20 @@
         pagination: {
             el: '.swiper-pagination',
         },
+    });
+    </script>
+    <script type="text/javascript">
+    $(document).on('scroll', function()) {
+    $()
+    })
+    </script>
+
+    <!-- AOS SCROLL EFFECT JS CDN AND INIT CODE -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init({
+        offset: 400,
+        duration: 1000
     });
     </script>
 </body>
