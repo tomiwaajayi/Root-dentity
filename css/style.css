@@ -380,7 +380,7 @@ img.app-description-img {
     }
 
     img.app-description-img {
-        width: 120px;
+        width: 100%;
         height: auto;
         margin: auto;
     }
