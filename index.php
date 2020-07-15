@@ -168,10 +168,10 @@
 
                 <div class="col-4">
                     <div class="app-description-text-2">
-                        <p class="move-3" data-aos="fade-left">With the use of Facial identification
+                        <p class="move-3" data-aos="fade-right">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                         <hr data-aos="zoom-in" data-aos-offset="150">
-                        <p class="move-4" data-aos="fade-left">With the use of Facial identification technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="move-4" data-aos="fade-right">With the use of Facial identification technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
                 </div>
             </div>
@@ -217,7 +217,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init({
-        offset: 150,
+        // offset: 150,
         duration: 1000
     });
     </script>
