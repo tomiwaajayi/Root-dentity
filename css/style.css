@@ -208,7 +208,41 @@ img.app-description-img {
 
 
 
+section.footer {
+    background-color: #F9F7F1;
+}
 
+section.footer img {
+    width: 100%;
+}
+
+.footer-col div.col-lg-3 {
+    padding: 0;
+}
+
+.footer-text-container {
+    max-width: 557px;
+}
+
+.footer-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 64px;
+    text-align: center;
+    color: #505D68;
+}
+
+.footer-text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #505D68;
+
+}
 
 
 

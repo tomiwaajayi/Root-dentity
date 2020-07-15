@@ -21,10 +21,10 @@
     <title>Root-dentity</title>
 
     <style>
-        body {
-            margin: 0 !important;
-            padding: 0 !important;
-        }
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
     </style>
 </head>
 
@@ -163,7 +163,8 @@
 
                 <div class="col-4 text-center">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
-                        alt="" class="app-description-img" data-aos="zoom-in" data-aos-duration="1700" data-aos-anchor-placement="top-center">
+                        alt="" class="app-description-img" data-aos="zoom-in" data-aos-duration="1700"
+                        data-aos-anchor-placement="top-center">
                 </div>
 
                 <div class="col-4">
@@ -171,8 +172,47 @@
                         <p class="move-3" data-aos="fade-down">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                         <hr data-aos="zoom-in" data-aos-offset="150">
-                        <p class="move-4" data-aos="fade-up">With the use of Facial identification technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="move-4" data-aos="fade-up">With the use of Facial identification technology and
+                            Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container-fluid">
+            <div class="row footer-col">
+                <div class="col-lg-3 d-none d-lg-block">
+                    <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594825928/footer2_l2doix.png" alt="">
+                </div>
+                <div class="col-lg-6 text-center pt-5">
+                    <div class="footer-text-container mx-auto">
+                    <h4 class="footer-heading mb-3">Download the future</h4>
+                    <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit possimus ipsam quam mollitia.
+                        Expedita, maiores consectetur quam neque quo ducimus?</p>
+
+                        <!-- Last Get Notified Form -->
+                    <div>
+                        <p class="form-mail-text">Get notified when we launch !</p>
+                    </div>
+
+                    <form action="insert.php" method="post">
+                        <div class="input-group mx-auto   mb-3 form-mail">
+                            <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email"
+                                required>
+                            <div class="input-group-append">
+                                <button class="input-group-text bg-orange" id="basic-addon2" type="submit" name="submit"
+                                    value="submit" data-toggle="modal" data-target="#exampleModal">GET
+                                    NOTIFIED</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                    </div>
+                <div class="col-lg-3 text-right">
+                    <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594826683/Screenshot_2020-07-15_at_4.07.00_PM_wp83vw.png"
+                        alt="">
                 </div>
             </div>
         </div>
