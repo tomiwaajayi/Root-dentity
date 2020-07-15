@@ -6,6 +6,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #F9F7F1;
+    overflow-x: hidden !important;
 }
 
 .logo {
@@ -148,6 +149,44 @@ input.form-input::-webkit-input-placeholder {
 }
 
 
+.hi-slide {
+    position: relative;
+    width: 754px;
+    height: 292px;
+    margin: 115px auto 0;
+}
+
+.hi-slide .hi-prev,
+.hi-slide .hi-next {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+}
+
+.hi-slide ul li img {
+    height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animations */
 img.vert-move {
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;

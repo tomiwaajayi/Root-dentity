@@ -1,0 +1,28 @@
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 50px;
+    /* min-height: 100vh; */
+    /* background-color: black; */
+}
+
+.carousel-container img {
+    max-width: 220px;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 280px;
+    height: 470px;
+    /* background-color: #000; */
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006); */
+}

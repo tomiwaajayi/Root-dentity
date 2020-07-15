@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
     <script src="https://kit.fontawesome.com/5f006efe51.js" crossorigin="anonymous"></script>
     <title>Root-dentity</title>
 </head>
@@ -82,21 +85,87 @@
                 </div>
             </div>
 
+
+            <!-- Phone Screen Carousel -->
+            <div class="carousel-container container">
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide text-center"> <img
+                                src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                                alt=""> </div>
+                        <div class="swiper-slide text-center"> <img
+                                src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                                alt=""> </div>
+                        <div class="swiper-slide text-center"> <img
+                                src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                                alt=""> </div>
+                        <div class="swiper-slide text-center"> <img
+                                src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                                alt=""> </div>
+                        <div class="swiper-slide text-center"> <img
+                                src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                                alt=""> </div>
+                        <div class="swiper-slide text-center"> <img
+                                src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
+                                alt=""> </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+
             <!-- Be notified Form 2 -->
             <div class="call-to-action-2 text-center">
                 <p class="form-mail-text">Get notified when we launch !</p>
-            </div>
-            <form action="insert.php" method="post">
-                <div class="input-group mx-auto mb-3 form-mail mx-auto form-2">
-                    <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email"
-                        required>
-                    <div class="input-group-append">
-                        <button class="input-group-text bg-orange" id="basic-addon2" type="submit" name="submit"
-                            value="submit">GET NOTIFIED</button>
+                </>
+                <form action="insert.php" method="post">
+                    <div class="input-group mx-auto mb-3 form-mail mx-auto form-2">
+                        <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email"
+                            required>
+                        <div class="input-group-append">
+                            <button class="input-group-text bg-orange" id="basic-addon2" type="submit" name="submit"
+                                value="submit">GET NOTIFIED</button>
+                        </div>
                     </div>
-                </div>
-            </form>
+                </form>
 
-            <!-- End of form 2-->
-        </div>
+                <!-- End of form 2-->
+            </div>
     </section>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+            rotate: 20,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: false,
+        },
+        loop: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+    </script>
+</body>
+
+</html>
