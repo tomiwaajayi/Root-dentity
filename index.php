@@ -155,7 +155,7 @@
 
                 <div class="col-4 text-center">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
-                        alt="" class="app-description-img" data-aos="fade-up" data-aos-anchor-placement="top-center">>
+                        alt="" class="app-description-img" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 </div>
 
                 <div class="col-4">
