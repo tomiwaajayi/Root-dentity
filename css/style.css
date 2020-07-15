@@ -195,6 +195,13 @@ img.app-description-img {
     line-height: 25px;
 }
 
+.app-description-container hr {
+    height: 2px;
+    max-width: 130px;
+    color: cornsilk;
+    background-color: #fff;
+    margin-left: 0;
+}
 
 
 
@@ -401,6 +408,26 @@ img.app-description-img {
     .app-description-text-2 {
         padding-top: 10px;
         padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 11px;
     }
 }
 
