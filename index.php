@@ -153,25 +153,25 @@
             <div class="row">
                 <div class="col-4">
                     <div class="px-auto app-description-text-1">
-                        <p class="move-1" data-aos="fade-right">With the use of Facial identification
+                        <p class="move-1" data-aos="fade-down">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                         <hr data-aos="zoom-in" data-aos-offset="150">
-                        <p class="move-2" data-aos="fade-right">With the use of Facial identification
+                        <p class="move-2" data-aos="fade-up">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
                 </div>
 
                 <div class="col-4 text-center">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594797786/iPhone_11_Pro_Max_so1j2u.png"
-                        alt="" class="app-description-img" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                        alt="" class="app-description-img" data-aos="zoom-in" data-aos-duration="1700" data-aos-anchor-placement="top-center">
                 </div>
 
                 <div class="col-4">
                     <div class="app-description-text-2">
-                        <p class="move-3" data-aos="fade-right">With the use of Facial identification
+                        <p class="move-3" data-aos="fade-down">With the use of Facial identification
                             technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                         <hr data-aos="zoom-in" data-aos-offset="150">
-                        <p class="move-4" data-aos="fade-right">With the use of Facial identification technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
+                        <p class="move-4" data-aos="fade-up">With the use of Facial identification technology and Artificial Inteligence, Root-dentity traces your ancestery and history.</p>
                     </div>
                 </div>
             </div>
@@ -218,7 +218,7 @@
     <script>
     AOS.init({
         // offset: 150,
-        duration: 1000
+        duration: 1500
     });
     </script>
 </body>
