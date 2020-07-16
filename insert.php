@@ -15,8 +15,7 @@
             $run = mysqli_query($connection,$query) or mysqli_error($connection);
 
             if($run) {
-                header("Location: index.php");
-                // echo "We'll keep you updated";
+                echo "Great! You'd be the first to know when we launch!";
             }else {
                 echo "There has been an error";
             }

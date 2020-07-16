@@ -58,18 +58,17 @@
                             <p class="form-mail-text">Get notified when we launch !</p>
                         </div>
 
-                        <form action="insert.php" method="post">
+                        <form action="insert.php" method="POST" id="my-form-1" class>
                             <div class="input-group mx-auto ml-md-0  mb-3 form-mail">
                                 <input type="email" name="email" class="form-control form-input"
-                                    placeholder="&#xf0e0 Email" required>
+                                    placeholder="&#xf0e0 Email" id="my-form-input-1" required>
                                 <div class="input-group-append">
                                     <button class="input-group-text bg-orange" id="basic-addon2" type="submit"
-                                        name="submit" value="submit" data-toggle="modal" data-target="#exampleModal">GET
+                                        name="submit" value="submit">GET
                                         NOTIFIED</button>
                                 </div>
                             </div>
                         </form>
-
                         <!-- End of form 1 -->
 
                     </div>
@@ -129,10 +128,10 @@
             <div class="call-to-action-2 text-center">
                 <p class="form-mail-text">Get notified when we launch !</p>
                 </>
-                <form action="insert.php" method="post">
+                <form action="insert.php" method="POST" id="my-form-2">
                     <div class="input-group mx-auto mb-3 form-mail mx-auto form-2">
-                        <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email"
-                            required>
+                        <input type="email" name="email" class="form-control form-input" id="my-form-input-2"
+                            placeholder="&#xf0e0 Email" required>
                         <div class="input-group-append">
                             <button class="input-group-text bg-orange" id="basic-addon2" type="submit" name="submit"
                                 value="submit">GET NOTIFIED</button>
@@ -183,34 +182,35 @@
     <section class="footer">
         <div class="container-fluid">
             <div class="row footer-col">
-                <div class="col-md-3 d-none d-lg-block">
+                <div class="col-lg-3 d-none d-lg-block">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594825928/footer2_l2doix.png" alt="">
                 </div>
-                <div class="col-md-6 text-center pt-3">
+                <div class="col-lg-6 text-center pt-3">
                     <div class="footer-text-container mx-auto">
-                    <h4 class="footer-heading mb-3">Download the future</h4>
-                    <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit possimus ipsam quam mollitia.
-                        Expedita, maiores consectetur quam neque quo ducimus?</p>
+                        <h4 class="footer-heading mb-3">Download the future</h4>
+                        <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit possimus
+                            ipsam quam mollitia.
+                            Expedita, maiores consectetur quam neque quo ducimus?</p>
 
                         <!-- Last Get Notified Form -->
-                    <div>
-                        <p class="form-mail-text">Get notified when we launch !</p>
-                    </div>
-
-                    <form action="insert.php" method="post">
-                        <div class="input-group mx-auto   mb-3 form-mail">
-                            <input type="email" name="email" class="form-control form-input" placeholder="&#xf0e0 Email"
-                                required>
-                            <div class="input-group-append">
-                                <button class="input-group-text bg-orange" id="basic-addon2" type="submit" name="submit"
-                                    value="submit" data-toggle="modal" data-target="#exampleModal">GET
-                                    NOTIFIED</button>
-                            </div>
+                        <div>
+                            <p class="form-mail-text">Get notified when we launch !</p>
                         </div>
-                    </form>
-                </div>
+
+                        <form action="insert.php" method="POST" id="my-form-3">
+                            <div class="input-group mx-auto   mb-3 form-mail">
+                                <input type="email" name="email" id="my-form-input-3" class="form-control form-input"
+                                    placeholder="&#xf0e0 Email" required>
+                                <div class="input-group-append">
+                                    <button class="input-group-text bg-orange" id="basic-addon2" type="submit"
+                                        name="submit" value="submit">GET
+                                        NOTIFIED</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                <div class="col-md-3 text-right">
+                </div>
+                <div class="col-lg-3 text-right">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594826683/Screenshot_2020-07-15_at_4.07.00_PM_wp83vw.png"
                         alt="">
                 </div>
@@ -220,10 +220,78 @@
 
 
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- ===== JAVASCRIPT ===== -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <!-- Initialize Swiper -->
+    <script>
+    $(document).ready(function() {
+        $('#my-form-1').on('submit', function(e) {
+            //Stop the form from submitting itself to the server.
+            e.preventDefault();
+            var email = $('#my-form-input-1').val();
+            $.ajax({
+                type: "POST",
+                url: 'insert.php',
+                data: {
+                    email: email,
+                    submit: 'submit'
+                },
+                success: function(data) {
+                    $("#my-form-1")[0].reset();
+                    alert(data);
+                }
+            });
+        });
+    });
+    </script>
+
+    <script>
+    $(document).ready(function() {
+        $('#my-form-2').on('submit', function(e) {
+            //Stop the form from submitting itself to the server.
+            e.preventDefault();
+            var email = $('#my-form-input-2').val();
+            $.ajax({
+                type: "POST",
+                url: 'insert.php',
+                data: {
+                    email: email,
+                    submit: 'submit'
+                },
+                success: function(data) {
+                    $("#my-form-2")[0].reset();
+                    alert(data);
+                }
+            });
+        });
+    });
+    </script>
+
+    <script>
+    $(document).ready(function() {
+        $('#my-form-3').on('submit', function(e) {
+            //Stop the form from submitting itself to the server.
+            e.preventDefault();
+            var email = $('#my-form-input-3').val();
+            $.ajax({
+                type: "POST",
+                url: 'insert.php',
+                data: {
+                    email: email,
+                    submit: 'submit'
+                },
+                success: function(data) {
+                    $("#my-form-3")[0].reset();
+                    alert(data);
+                }
+            });
+        });
+    });
+    </script>
+
+
+    <!-- Initialize Swiper.JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
     var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
@@ -249,8 +317,8 @@
     </script>
     <script type="text/javascript">
     $(document).on('scroll', function()) {
-    $()
-    })
+        $()
+    }
     </script>
 
     <!-- AOS SCROLL EFFECT JS CDN AND INIT CODE -->
