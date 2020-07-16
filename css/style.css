@@ -307,6 +307,14 @@ h4 {
     background-color: #E9623B !important
 }
 
+#errorModal.modal {
+    background-color: #054639ae;
+}
+
+#myModal {
+    background-color: #e8ba4729;
+}
+
 
 
 
