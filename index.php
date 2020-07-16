@@ -335,14 +335,14 @@
                     email: email,
                     submit: 'submit'
                 },
-                success: function(data) {
+                success: function(data, status) {
                     $("#myModal").modal('show');
                     $("#my-form-3")[0].reset();
-                    // alert(data);
                 },
-                error: function(data) {
+                error: function(data, status) {
                     $("#errorModal").modal('show');
                     $("#my-form-3")[0].reset();
+
                 }
             });
         });
@@ -376,9 +376,9 @@
     });
     </script>
     <script type="text/javascript">
-    $(document).on('scroll', function()) {
-        $()
-    }
+    // $(document).on('scroll', function()) {
+    //     $()
+    // }
     </script>
 
     <!-- AOS SCROLL EFFECT JS CDN AND INIT CODE -->

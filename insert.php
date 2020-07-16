@@ -6,19 +6,20 @@
 
         $connection = mysqli_connect($server, $username, $password, $database) or die(mysqli_error());
 
+        $_POST['submit'] = true;
+        $_POST['email'] = 'ishukpong418@gmail.com';
 
     if(isset($_POST['submit'])) {
 
         if (!empty($_POST['email'])){
             $emailer = $_POST['email'];
-            $query = "SELECT * from emails where email=". $emailer;
+            $query = "SELECT * from emails where email='". $emailer . "'";
 
             $run = mysqli_query($connection,$query);
 
             if(mysqli_num_rows($run) > 0){
-                //put the logic to handling multiple emails here
-
-                return; //do not remove this return
+                http_response_code(403);
+                return ;
             }
 
             $query = "INSERT INTO emails (email) VALUES ('$emailer')";
@@ -31,7 +32,6 @@
             }
         }else{
             echo "All fields are required";
-
         }
 
     }
