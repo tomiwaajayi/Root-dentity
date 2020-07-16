@@ -6,9 +6,6 @@
 
         $connection = mysqli_connect($server, $username, $password, $database) or die(mysqli_error());
 
-        $_POST['submit'] = true;
-        $_POST['email'] = 'ishukpong418@gmail.com';
-
     if(isset($_POST['submit'])) {
 
         if (!empty($_POST['email'])){
