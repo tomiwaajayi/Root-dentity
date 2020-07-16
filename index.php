@@ -287,8 +287,9 @@
                     submit: 'submit'
                 },
                 success: function(data) {
+                    $("#myModal").modal('show');
                     $("#my-form-2")[0].reset();
-                    alert(data);
+                    // alert(data);
                 }
             });
         });
@@ -309,8 +310,9 @@
                     submit: 'submit'
                 },
                 success: function(data) {
+                    $("#myModal").modal('show');
                     $("#my-form-3")[0].reset();
-                    alert(data);
+                    // alert(data);
                 }
             });
         });
