@@ -244,7 +244,7 @@ section.footer img {
 
 
 
-/* MODAL */
+/* ===== MODAL ===== */
 
 .card {
     position: relative;
@@ -272,7 +272,7 @@ section.footer img {
 }
 
 .card-body img {
-    max-height: 210px !important;
+    max-width: 260px !important;
 }
 
 p {
