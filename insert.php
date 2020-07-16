@@ -11,6 +11,16 @@
 
         if (!empty($_POST['email'])){
             $emailer = $_POST['email'];
+            $query = "SELECT * from emails where email=". $emailer;
+
+            $run = mysqli_query($connection,$query);
+
+            if(mysqli_num_rows($run) > 0){
+                //put the logic to handling multiple emails here
+
+                return; //do not remove this return
+            }
+
             $query = "INSERT INTO emails (email) VALUES ('$emailer')";
             $run = mysqli_query($connection,$query) or mysqli_error($connection);
 
