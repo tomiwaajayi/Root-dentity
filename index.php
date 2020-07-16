@@ -184,7 +184,7 @@
             <div class="row footer-col">
                 <div class="col-lg-3 d-none d-lg-block">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594825928/footer2_l2doix.png"
-                        data-aos="fade-right" data-aos-duration="3000"> alt="">
+                        data-aos="fade-right" data-aos-duration="3000" alt="">
                 </div>
                 <div class="col-lg-6 text-center pt-3">
                     <div class="footer-text-container mx-auto">
@@ -213,7 +213,7 @@
                 </div>
                 <div class="col-lg-3 text-right">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594826683/Screenshot_2020-07-15_at_4.07.00_PM_wp83vw.png"
-                        alt="" data-aos="fade-up" data-aos-duration="3000">>
+                        alt="" data-aos="fade-up" data-aos-duration="3000">
                 </div>
             </div>
         </div>
