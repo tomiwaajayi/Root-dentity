@@ -183,7 +183,8 @@
         <div class="container-fluid">
             <div class="row footer-col">
                 <div class="col-lg-3 d-none d-lg-block">
-                    <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594825928/footer2_l2doix.png" alt="">
+                    <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594825928/footer2_l2doix.png"
+                        data-aos="fade-right" data-aos-duration="3000"> alt="">
                 </div>
                 <div class="col-lg-6 text-center pt-3">
                     <div class="footer-text-container mx-auto">
@@ -212,7 +213,7 @@
                 </div>
                 <div class="col-lg-3 text-right">
                     <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594826683/Screenshot_2020-07-15_at_4.07.00_PM_wp83vw.png"
-                        alt="">
+                        alt="" data-aos="fade-up" data-aos-duration="3000">>
                 </div>
             </div>
         </div>
@@ -220,14 +221,31 @@
 
 
 
-    <!-- MODAL -->
+    <!-- MODAL SUCCESS-->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog">
             <div class="card">
                 <div class="text-right cross"> <i class="fa fa-times"></i> </div>
-                <div class="card-body text-center"> <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594893975/iPhone_11_Pro_Max_2_rekyep.png">
+                <div class="card-body text-center"> <img class="vert-move"
+                        src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594893975/iPhone_11_Pro_Max_2_rekyep.png">
                     <h4>GREAT!</h4>
                     <p>We'd make sure you're notified as soon as we launch!</p> <button
+                        class="btn btn-out btn-square continue">CONTINUE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MODAL ERROR-->
+    <div class="modal fade" id="errorModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="card">
+                <div class="text-right cross"> <i class="fa fa-times"></i> </div>
+                <div class="card-body text-center"> <img class="vert-move"
+                        src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594893975/iPhone_11_Pro_Max_2_rekyep.png">
+                    <h4>WE GOT YOUR MAIL ALREADY!</h4>
+                    <p>We know you're eager! <br> You'd be the first person to be notified !</p> <button
                         class="btn btn-out btn-square continue">CONTINUE</button>
                 </div>
             </div>
@@ -267,6 +285,10 @@
                     $("#myModal").modal('show');
                     $("#my-form-1")[0].reset();
                     // alert(data);
+                },
+                error: function(data) {
+                    $("#errorModal").modal('show');
+                    $("#my-form-1")[0].reset();
                 }
             });
         });
@@ -290,6 +312,10 @@
                     $("#myModal").modal('show');
                     $("#my-form-2")[0].reset();
                     // alert(data);
+                },
+                error: function(data) {
+                    $("#errorModal").modal('show');
+                    $("#my-form-2")[0].reset();
                 }
             });
         });
@@ -313,6 +339,10 @@
                     $("#myModal").modal('show');
                     $("#my-form-3")[0].reset();
                     // alert(data);
+                },
+                error: function(data) {
+                    $("#errorModal").modal('show');
+                    $("#my-form-3")[0].reset();
                 }
             });
         });
