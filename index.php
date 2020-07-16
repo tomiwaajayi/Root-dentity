@@ -220,9 +220,36 @@
 
 
 
+    <!-- MODAL -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="card">
+                <div class="text-right cross"> <i class="fa fa-times"></i> </div>
+                <div class="card-body text-center"> <img src="https://res.cloudinary.com/dafsch2zs/image/upload/v1594893975/iPhone_11_Pro_Max_2_rekyep.png">
+                    <h4>GREAT!</h4>
+                    <p>We'd make sure you're notified as soon as we launch!</p> <button
+                        class="btn btn-out btn-square continue">CONTINUE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
     <!-- ===== JAVASCRIPT ===== -->
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+
+
+
     <script>
     $(document).ready(function() {
         $('#my-form-1').on('submit', function(e) {
@@ -237,8 +264,9 @@
                     submit: 'submit'
                 },
                 success: function(data) {
+                    $("#myModal").modal('show');
                     $("#my-form-1")[0].reset();
-                    alert(data);
+                    // alert(data);
                 }
             });
         });

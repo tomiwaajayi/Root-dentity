@@ -9,6 +9,7 @@ body {
     overflow-x: hidden !important;
 }
 
+
 .logo {
     box-sizing: border-box;
     margin-top: 50px;
@@ -206,8 +207,6 @@ img.app-description-img {
     margin-left: 0;
 }
 
-
-
 section.footer {
     background-color: #F9F7F1;
 }
@@ -241,7 +240,71 @@ section.footer img {
     line-height: 24px;
     text-align: center;
     color: #505D68;
+}
 
+
+
+/* MODAL */
+
+.card {
+    position: relative;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #F9F7F1;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.card .card-body {
+    padding: 1rem 1rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.card-body img {
+    max-height: 210px !important;
+}
+
+p {
+    font-size: 14px
+}
+
+h4 {
+    margin-top: 18px
+}
+
+.cross {
+    padding: 10px;
+    color: #E9623B;
+    cursor: pointer
+}
+
+.continue:focus {
+    outline: none
+}
+
+.continue {
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 8px 19px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #E9623B
+}
+
+.continue:hover {
+    background-color: #E9623B !important
 }
 
 
@@ -282,8 +345,6 @@ section.footer img {
     }
     
 }
-
-
 
 /* Media Query for Medium Screen */
 @media screen and (max-width: 767px) {
