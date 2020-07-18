@@ -105,31 +105,9 @@ input.form-input::-webkit-input-placeholder {
     max-height: 546.74px;
 }
 
-.video-bg {
-    height: 650px;
-    margin-top: 100px;
-    background-color: #E9623B;
-}
-
-.video-header {
-    color: #fff;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 64px;
-    padding-top: 41px;
-}
-
-.video-box {
-    display: block;
-    margin: auto;
-    margin-top: 28px;
-    max-width: 756px;
-}
-
-.video-bg .video-box iframe {
-    display: inline-block;
-    border: 3px solid #E8BB47;
+.video-div {
+    border: 25px solid #E9623B;
+    /* border-radius: 13.3px !important; */
 }
 
 .app-screen {
@@ -235,8 +213,8 @@ section.footer img {
 .footer-text {
     font-family: Ubuntu;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 18px;
     line-height: 24px;
     text-align: center;
     color: #505D68;
@@ -377,15 +355,6 @@ section.footer {
         padding-top: 20px;
     }
 
-    .video-bg {
-        height: 450px !important;
-        margin-top: 20px !important;
-        background-color: #E9623B;
-    }
-
-    .video-header {
-        font-size: 40px;
-    }
 
     .coming-soon {
         font-size: 30px;
@@ -404,13 +373,6 @@ section.footer {
         height: 384.4px;
         margin-top: 30px;
         margin-bottom: 30px; 
-    }
-
-    .video-box {
-        display: block;
-        margin: auto;
-        margin-top: 15px;
-        width: 460px;
     }
 
     .call-to-action-2 {
@@ -463,30 +425,6 @@ section.footer {
         height: 384.4px;
         margin-top: 30px;
         margin-bottom: 30px;
-    }
-
-
-    .video-bg {
-        height: 321px !important;
-        margin-top: 20px !important;
-        background-color: #E9623B;
-    }
-
-    .video-header {
-        color: #fff;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px !important;
-        line-height: 64px;
-        padding-top: 20px !important;
-    }
-
-    .video-box {
-        box-sizing: border-box !important;
-        display: block;
-        margin: auto;
-        margin-top: 15px;
-        max-width: 280px !important;
     }
 
     .call-to-action-2 {
@@ -647,4 +585,12 @@ img.vert-move {
 	width: 100%;
 	top: 0;
 	left: 0;
+}
+
+
+
+
+div.swiper-button-next::after, div.swiper-button-prev::after {
+    color: #0e5849 !important;
+    
 }
